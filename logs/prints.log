@@ -1,0 +1,27 @@
+13:28:43.446 [TestNG-tests-1] DEBUG testScript.LoginTest - Browser got launched
+13:28:45.996 [TestNG-tests-1] DEBUG testScript.LoginTest - Navigate to application
+13:28:46.352 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on My Account DropDown
+13:28:47.202 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on Login Option
+13:28:47.568 [TestNG-tests-1] DEBUG testScript.LoginTest - Enter eamil id
+13:28:47.799 [TestNG-tests-1] DEBUG testScript.LoginTest - Enter Password
+13:28:48.515 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on Login Button
+13:28:58.739 [TestNG-tests-1] DEBUG testScript.LoginTest - Login Failed
+13:29:00.041 [TestNG-tests-1] DEBUG testScript.LoginTest - Browser Closed
+15:31:01.073 [TestNG-tests-1] DEBUG testScript.LoginTest - Browser got launched
+15:31:06.092 [TestNG-tests-1] DEBUG testScript.LoginTest - Navigate to application
+15:31:07.791 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on My Account DropDown
+15:31:08.633 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on Login Option
+15:31:08.924 [TestNG-tests-1] DEBUG testScript.LoginTest - Enter eamil id
+15:31:09.095 [TestNG-tests-1] DEBUG testScript.LoginTest - Enter Password
+15:31:09.673 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on Login Button
+15:31:09.832 [TestNG-tests-1] DEBUG testScript.LoginTest - Logged in User
+15:31:10.722 [TestNG-tests-1] DEBUG testScript.LoginTest - Browser Closed
+15:31:14.138 [TestNG-tests-1] DEBUG testScript.LoginTest - Browser got launched
+15:31:16.036 [TestNG-tests-1] DEBUG testScript.LoginTest - Navigate to application
+15:31:16.166 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on My Account DropDown
+15:31:16.677 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on Login Option
+15:31:16.928 [TestNG-tests-1] DEBUG testScript.LoginTest - Enter eamil id
+15:31:17.091 [TestNG-tests-1] DEBUG testScript.LoginTest - Enter Password
+15:31:17.508 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on Login Button
+15:31:27.558 [TestNG-tests-1] DEBUG testScript.LoginTest - Login Failed
+15:31:29.680 [TestNG-tests-1] DEBUG testScript.LoginTest - Browser Closed

@@ -1,0 +1,63 @@
+14:57:16.768 [TestNG-tests-1] DEBUG testScript.LoginTest - Browser got launched
+14:57:40.845 [TestNG-tests-1] DEBUG testScript.LoginTest - Navigate to application
+14:57:48.200 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on My Account DropDown
+14:57:53.384 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on Login Option
+14:57:57.140 [TestNG-tests-1] DEBUG testScript.LoginTest - Enter eamil id
+14:57:57.677 [TestNG-tests-1] DEBUG testScript.LoginTest - Enter Password
+14:57:59.301 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on Login Button
+14:57:59.976 [TestNG-tests-1] DEBUG testScript.LoginTest - Logged in User
+14:58:01.099 [TestNG-tests-1] DEBUG testScript.LoginTest - Browser Closed
+14:58:07.239 [TestNG-tests-1] DEBUG testScript.LoginTest - Browser got launched
+14:58:11.404 [TestNG-tests-1] DEBUG testScript.LoginTest - Navigate to application
+14:58:11.636 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on My Account DropDown
+14:58:13.009 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on Login Option
+14:58:13.686 [TestNG-tests-1] DEBUG testScript.LoginTest - Enter eamil id
+14:58:14.151 [TestNG-tests-1] DEBUG testScript.LoginTest - Enter Password
+14:58:15.273 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on Login Button
+14:58:25.671 [TestNG-tests-1] DEBUG testScript.LoginTest - Login Failed
+14:58:27.184 [TestNG-tests-1] DEBUG testScript.LoginTest - Browser Closed
+15:19:54.328 [TestNG-tests-1] DEBUG testScript.LoginTest - Browser got launched
+15:20:17.188 [TestNG-tests-1] DEBUG testScript.LoginTest - Navigate to application
+15:20:22.130 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on My Account DropDown
+15:20:25.435 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on Login Option
+15:20:33.974 [TestNG-tests-1] DEBUG testScript.LoginTest - Enter eamil id
+15:20:34.541 [TestNG-tests-1] DEBUG testScript.LoginTest - Enter Password
+15:20:37.210 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on Login Button
+15:20:37.881 [TestNG-tests-1] DEBUG testScript.LoginTest - Logged in User
+15:20:40.004 [TestNG-tests-1] DEBUG testScript.LoginTest - Browser Closed
+15:20:52.361 [TestNG-tests-1] DEBUG testScript.LoginTest - Browser got launched
+15:20:55.031 [TestNG-tests-1] DEBUG testScript.LoginTest - Navigate to application
+15:20:55.318 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on My Account DropDown
+15:20:56.075 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on Login Option
+15:20:56.585 [TestNG-tests-1] DEBUG testScript.LoginTest - Enter eamil id
+15:20:56.960 [TestNG-tests-1] DEBUG testScript.LoginTest - Enter Password
+15:20:58.024 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on Login Button
+15:21:08.659 [TestNG-tests-1] DEBUG testScript.LoginTest - Login Failed
+15:21:10.984 [TestNG-tests-1] DEBUG testScript.LoginTest - Browser Closed
+15:28:10.429 [TestNG-tests-1] DEBUG testScript.LoginTest - Browser got launched
+15:28:27.995 [TestNG-tests-1] DEBUG testScript.LoginTest - Navigate to application
+15:28:34.468 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on My Account DropDown
+15:28:36.496 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on Login Option
+15:28:38.317 [TestNG-tests-1] DEBUG testScript.LoginTest - Enter eamil id
+15:28:38.711 [TestNG-tests-1] DEBUG testScript.LoginTest - Enter Password
+15:28:40.345 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on Login Button
+15:28:41.163 [TestNG-tests-1] DEBUG testScript.LoginTest - Logged in User
+15:28:42.426 [TestNG-tests-1] DEBUG testScript.LoginTest - Browser Closed
+15:28:49.645 [TestNG-tests-1] DEBUG testScript.LoginTest - Browser got launched
+15:28:53.468 [TestNG-tests-1] DEBUG testScript.LoginTest - Navigate to application
+15:28:53.763 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on My Account DropDown
+15:28:54.599 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on Login Option
+15:28:55.183 [TestNG-tests-1] DEBUG testScript.LoginTest - Enter eamil id
+15:28:55.545 [TestNG-tests-1] DEBUG testScript.LoginTest - Enter Password
+15:28:56.348 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on Login Button
+15:29:06.544 [TestNG-tests-1] DEBUG testScript.LoginTest - Login Failed
+15:29:07.527 [TestNG-tests-1] DEBUG testScript.LoginTest - Browser Closed
+13:28:15.583 [TestNG-tests-1] DEBUG testScript.LoginTest - Browser got launched
+13:28:30.542 [TestNG-tests-1] DEBUG testScript.LoginTest - Navigate to application
+13:28:31.577 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on My Account DropDown
+13:28:32.876 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on Login Option
+13:28:34.408 [TestNG-tests-1] DEBUG testScript.LoginTest - Enter eamil id
+13:28:34.929 [TestNG-tests-1] DEBUG testScript.LoginTest - Enter Password
+13:28:36.421 [TestNG-tests-1] DEBUG testScript.LoginTest - Click on Login Button
+13:28:36.991 [TestNG-tests-1] DEBUG testScript.LoginTest - Logged in User
+13:28:38.467 [TestNG-tests-1] DEBUG testScript.LoginTest - Browser Closed

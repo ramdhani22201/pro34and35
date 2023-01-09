@@ -1,0 +1,21 @@
+{
+"userregister":[
+	{
+		"firstname": "Ramdhani",
+		"lasename": "Chauhan",
+		"emailid": "ramdhani1@gmail.com",
+		"telephone": "9096908990",
+		"password": "ramdhani1",
+		"confirmpassword": "ramdhani1"
+	},
+	
+	{
+		"firstname": "Amit",
+		"lasename": "Maurya",
+		"emailid": "amit1@gmail.com",
+		"telephone": "9096908990",
+		"password": "amit1",
+		"confirmpassword": "amit1"
+	}
+]
+}
