@@ -43,7 +43,7 @@ public class LoginTest extends Base{
 		//login credential page
 		LoginPage loginPage = new LoginPage(driver);
 		loginPage.emailTextField().sendKeys(email);
-		log.debug("Enter eamil id");
+		log.debug("Enter email id");
 		loginPage.passwordTextField().sendKeys(pass);
 		log.debug("Enter Password");
 		loginPage.loginButton().click();

@@ -12,6 +12,8 @@ public class ExtentReport {
 		ExtentSparkReporter extentSparkReporter = new ExtentSparkReporter(extentReportPath);
 		extentSparkReporter.config().setReportName("TutorialsNinja.com");
 		extentSparkReporter.config().setDocumentTitle("Test Result");
+		//extentSparkReporter.config().setTimelineEnabled(true);
+		
 		
 		extentReports = new ExtentReports();
 		extentReports.attachReporter(extentSparkReporter);

@@ -36,31 +36,34 @@ WebDriver driver;
 	{
 		String excelFilePath = ".\\jsonFiles\\ExcelUserData.xlsx";
 		FileInputStream fis = new FileInputStream(excelFilePath);
-		@SuppressWarnings("resource")
 		XSSFWorkbook workBook = new XSSFWorkbook(fis);
 		XSSFSheet sheet = workBook.getSheetAt(0);//get sheet of excel file
+		System.out.println(sheet);
 		
 		int rows = sheet.getLastRowNum();
 		int columns =sheet.getRow(1).getLastCellNum();
 		
-		for(int r = 0; r<= rows; r++)
+		for(int r = 1; r<= rows; r++)
 		{
 			XSSFRow  row = sheet.getRow(r);
-			for(int c =0; c<=columns; c++ )
-			{
-				XSSFCell cell  = row.getCell(c);
-				switch(cell.getCellType())
-				{
-				case STRING : System.out.print(cell.getStringCellValue()); break;
-				case NUMERIC: System.out.print(cell.getNumericCellValue()); break;
-				case BOOLEAN : System.out.print(cell.getBooleanCellValue()); break;
-				default:
-					break;
-				}
-				System.out.print(" | ");
-			}
+			System.out.println(row.getCell(columns));
+//			for(int c =0; c<=columns; c++ )
+//			{
+//				XSSFCell cell  = row.getCell(c);
+//				switch(cell.getCellType())
+//				{
+//				case STRING : System.out.print(cell.getStringCellValue()); break;
+//				case NUMERIC: System.out.print(cell.getNumericCellValue()); break;
+//				case BOOLEAN : System.out.print(cell.getBooleanCellValue()); break;
+//				default:
+//					break;
+//				}
+//				System.out.print(" | ");
+//			}
 			System.out.println();
+			
 		}
+		workBook.close();
 		
 		// Using by Iterator////////////
 //			Iterator itr = sheet.iterator();

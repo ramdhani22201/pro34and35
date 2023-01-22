@@ -14,7 +14,7 @@ public class LandingRegister {
 	}
 	
 	@FindBy(linkText = "Register")
-	WebElement registerOption;
+	private WebElement registerOption;
 	public WebElement registerOption()
 	{
 		return registerOption;

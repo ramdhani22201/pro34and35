@@ -1,140 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-08T15:30:40 IST" name="Suite" finished-at="2023-01-08T15:31:29 IST" duration-ms="48856">
+  <suite started-at="2023-01-22T19:52:55 IST" name="Suite" finished-at="2023-01-22T19:53:14 IST" duration-ms="19533">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@2c1b194a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-01-08T15:30:40 IST" name="TestFour" finished-at="2023-01-08T15:31:08 IST" duration-ms="27354">
-      <class name="testScript.FourTest">
-        <test-method is-config="true" signature="lunchBrowser()[pri:0, instance:testScript.FourTest@47d9a273]" started-at="2023-01-08T15:30:40 IST" name="lunchBrowser" finished-at="2023-01-08T15:31:01 IST" duration-ms="20152" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lunchBrowser -->
-        <test-method signature="TestFour()[pri:0, instance:testScript.FourTest@47d9a273]" started-at="2023-01-08T15:31:01 IST" name="TestFour" finished-at="2023-01-08T15:31:07 IST" duration-ms="5992" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertTrue(Assert.java:45)
-at org.testng.Assert.assertTrue(Assert.java:55)
-at testScript.FourTest.TestFour(FourTest.java:26)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestFour -->
-        <test-method is-config="true" signature="closuer()[pri:0, instance:testScript.FourTest@47d9a273]" started-at="2023-01-08T15:31:07 IST" name="closuer" finished-at="2023-01-08T15:31:08 IST" duration-ms="1057" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closuer -->
-      </class> <!-- testScript.FourTest -->
-    </test> <!-- TestFour -->
-    <test started-at="2023-01-08T15:30:40 IST" name="TestTree" finished-at="2023-01-08T15:31:08 IST" duration-ms="27745">
-      <class name="testScript.TreeTest">
-        <test-method is-config="true" signature="lunchBrowser()[pri:0, instance:testScript.TreeTest@51e69659]" started-at="2023-01-08T15:30:40 IST" name="lunchBrowser" finished-at="2023-01-08T15:31:01 IST" duration-ms="20121" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lunchBrowser -->
-        <test-method signature="TestTree()[pri:0, instance:testScript.TreeTest@51e69659]" started-at="2023-01-08T15:31:01 IST" name="TestTree" finished-at="2023-01-08T15:31:07 IST" duration-ms="6515" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestTree -->
-        <test-method is-config="true" signature="closuer()[pri:0, instance:testScript.TreeTest@51e69659]" started-at="2023-01-08T15:31:07 IST" name="closuer" finished-at="2023-01-08T15:31:08 IST" duration-ms="963" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closuer -->
-      </class> <!-- testScript.TreeTest -->
-    </test> <!-- TestTree -->
-    <test started-at="2023-01-08T15:30:40 IST" name="Login" finished-at="2023-01-08T15:31:29 IST" duration-ms="48856">
-      <class name="testScript.LoginTest">
-        <test-method is-config="true" signature="startUp()[pri:0, instance:testScript.LoginTest@581ac8a8]" started-at="2023-01-08T15:30:40 IST" name="startUp" finished-at="2023-01-08T15:31:06 IST" duration-ms="25104" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testScript.LoginTest@581ac8a8]" started-at="2023-01-08T15:31:06 IST" name="login" data-provider="getLoginData" finished-at="2023-01-08T15:31:09 IST" duration-ms="3741" status="PASS">
+    <test started-at="2023-01-22T19:52:55 IST" name="Test" finished-at="2023-01-22T19:53:14 IST" duration-ms="19533">
+      <class name="runner.Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.Runner@2c1b194a]" started-at="2023-01-22T19:52:55 IST" name="setUpClass" finished-at="2023-01-22T19:52:56 IST" duration-ms="1295" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ramdhani222222@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Ram@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Successfull]]>
+                <![CDATA[org.testng.TestRunner@2047981]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:testScript.LoginTest@581ac8a8]" started-at="2023-01-08T15:31:09 IST" name="closure" finished-at="2023-01-08T15:31:10 IST" duration-ms="888" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closure -->
-        <test-method is-config="true" signature="startUp()[pri:0, instance:testScript.LoginTest@581ac8a8]" started-at="2023-01-08T15:31:10 IST" name="startUp" finished-at="2023-01-08T15:31:16 IST" duration-ms="5314" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testScript.LoginTest@581ac8a8]" started-at="2023-01-08T15:31:16 IST" name="login" data-provider="getLoginData" finished-at="2023-01-08T15:31:27 IST" duration-ms="11521" status="PASS">
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@2c1b194a]" started-at="2023-01-22T19:52:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-22T19:53:14 IST" duration-ms="18067" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ramdhani222@gmail.com]]>
+                <![CDATA["Login with valid credentials"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Ram@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Failure]]>
+                <![CDATA["Application Login"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:testScript.LoginTest@581ac8a8]" started-at="2023-01-08T15:31:27 IST" name="closure" finished-at="2023-01-08T15:31:29 IST" duration-ms="2115" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.Runner@2c1b194a]" started-at="2023-01-22T19:53:14 IST" name="tearDownClass" finished-at="2023-01-22T19:53:14 IST" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closure -->
-      </class> <!-- testScript.LoginTest -->
-    </test> <!-- Login -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.Runner -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

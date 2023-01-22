@@ -14,7 +14,7 @@ public class AccountSuccessPage {
 	}
 	
 	@FindBy(xpath = "//h1[normalize-space()='Your Account Has Been Created!']")
-	WebElement successMessage;
+	private WebElement successMessage;
 	public WebElement successMessage()
 	{
 		return successMessage;

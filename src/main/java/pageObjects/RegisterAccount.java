@@ -16,41 +16,38 @@ public class RegisterAccount {
 	}
 	
 	@FindBy(xpath =  "//a[contains(text(),'login page')]")
-	WebElement loginPageLink;
+	private WebElement loginPageLink;
 	public WebElement loginPageLink(){return loginPageLink;}
 	
 	@FindBy(id = "input-firstname")
-	WebElement firstNameField;
+	private WebElement firstNameField;
 	public WebElement firstNameField(){ return firstNameField;}
 	
 	@FindBy(id = "input-lastname")
-	WebElement lastNameField;
+	private WebElement lastNameField;
 	public WebElement lastNameField(){return lastNameField;}
 	
 	@FindBy(id = "input-email")
-	WebElement emailField;
+	private WebElement emailField;
 	public WebElement emailField (){return emailField;}
 	
 	@FindBy(id = "input-telephone")
-	WebElement telphoneField;
+	private WebElement telphoneField;
 	public WebElement telphoneField(){return telphoneField;}
 	
 	@FindBy(id = "input-password")
-	WebElement passwordFeild;
+	private WebElement passwordFeild;
 	public WebElement passwordFeild(){return passwordFeild;}
 	
 	@FindBy(id = "input-confirm")
-	WebElement confirmpasswordFeild;
+	private WebElement confirmpasswordFeild;
 	public WebElement confirmpasswordFeild(){return confirmpasswordFeild;}
 	
 	@FindBy(name = "agree")
-	WebElement policyCheckbox;
+	private WebElement policyCheckbox;
 	public WebElement policyCheckbox(){return policyCheckbox;}
 	
 	@FindBy(xpath = "//input[@type ='submit']")
-	WebElement continueButton;
-	public WebElement continueButton() {return continueButton;}
-	
-	
-	
+	private WebElement continueButton;
+	public WebElement continueButton() {return continueButton;}	
 }

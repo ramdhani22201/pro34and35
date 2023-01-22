@@ -15,21 +15,21 @@ public class LoginPage {
 	}
 	
 	@FindBy(id = "input-email")
-	WebElement emailTextField;
+	private WebElement emailTextField;
 	public WebElement emailTextField()
 	{
 		return emailTextField;
 	}
 	
 	@FindBy(id = "input-password")
-	WebElement passwordTextField;
+	private WebElement passwordTextField;
 	public WebElement passwordTextField()
 	{
 		return passwordTextField;
 	}
 	
 	@FindBy(xpath = "//input[@type ='submit']")
-	WebElement loginButton;
+	private WebElement loginButton;
 	public WebElement loginButton()
 	{
 		return loginButton;
